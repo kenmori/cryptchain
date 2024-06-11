@@ -9,3 +9,5 @@ class Block {
 
 const block1 = new Block('foo-lastHash', "01/01/01", 'foo-data', 'foo-hash');
 
+
+module.exports = Block;
