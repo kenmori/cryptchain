@@ -9,8 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "pubnub": "^8.2.5"
+  },
   "devDependencies": {
-    "jest": "^29.7.0",
-    "crypto-hash": "^1.1.0"
+    "crypto-hash": "^1.1.0",
+    "jest": "^29.7.0"
   }
 }
