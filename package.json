@@ -6,16 +6,19 @@
   "scripts": {
     "test": "jest --watchAll",
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "npm run start-redis && nodemon index.js",
+    "start-redis": "redis-server --daemonize yes"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.2",
     "cross-env": "5.2.0",
     "express": "4.19.2",
-    "body-parser": "1.18.3",
-    "pubsub": "3.2.1"
+    "hex-to-binary": "1.0.1",
+    "pubnub": "4.21.6",
+    "redis": "^4.6.15"
   },
   "devDependencies": {
     "crypto-hash": "1.1.0",
