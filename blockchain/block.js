@@ -1,6 +1,6 @@
 
-const { GENESIS_DATA } = require('./config');
-const cryptoHash = require('./crypto-hash');
+const { GENESIS_DATA } = require('../config');
+const cryptoHash = require('../utils/crypto-hash');
 
 class Block {
   constructor({ timestamp, lastHash, hash, data, nonce, difficulty }) {
